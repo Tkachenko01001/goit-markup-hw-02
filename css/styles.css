@@ -11,6 +11,9 @@ body {
    color: #FFFFFF; 
 }
 
+.list {
+    list-style-type: none;
+}
 
 .header-border-bottom-color {
     border-bottom: 1px solid #ECECEC;
@@ -112,6 +115,7 @@ button:focus {
 
 
 .button-style {
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -158,6 +162,7 @@ button:focus {
 }
 
 .footer-map-text-style {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;    
@@ -166,6 +171,7 @@ button:focus {
 }
 
 .footer-mail-text-style, .footer-number-text-style {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -205,6 +211,7 @@ button:focus {
 }
 
 .botton-text-style {
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
